@@ -1,10 +1,10 @@
 # Desafio de Projeto sobre Git/GitHub da DIO
-Repositório criado para o desafio de projeto.
+
+**Repositório criado para o desafio de projeto.**
 
 
 ## Links Úteis
-[Sintaxe Básica MarkDown](https://www.markdownguide.org/basic-syntax/)
 
-[GitHUb] (https://github.com/)
+**Aqui você vai encontrar uma introdução as ferramentas do Git e GitHub, também irá encontrar links para se aprofundar mais no assunto e uma lista de comandos para usar o GitBash.**
 
-[Download Git] (https://git-scm.com/)
+
