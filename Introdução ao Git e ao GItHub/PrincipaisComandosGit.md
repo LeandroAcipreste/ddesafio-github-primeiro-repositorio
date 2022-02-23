@@ -1,4 +1,4 @@
-# Princiáis comandos Git no terminal:
+# Principais comandos Git no terminal:
 
 ## Comandos básicos
 
