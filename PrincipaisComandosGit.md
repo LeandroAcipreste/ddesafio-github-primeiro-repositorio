@@ -1,4 +1,4 @@
-# Princiáis comandos Git no termnial:
+# Princiáis comandos Git no terminal:
 
 ## Ajuda:
 **Geral** 
