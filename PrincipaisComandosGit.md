@@ -11,7 +11,7 @@ git help <qualquer_comando_git>
 
 ## Configuração:
 
-###Geral
+### Geral
 
 As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leandro ou *nix /home/leandro).
 
@@ -45,7 +45,7 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo .
 
 + Por repositório: Deve ser armazenado no diretório do repositório e deve conter a lista dos arquivos/diretórios que devem ser ignorados apenas para o repositório específico.
 
-##Repositório Local
+## Repositório Local
 
 #### Criar novo repositório
 
@@ -89,7 +89,7 @@ git commit meuarquivo.txt -m "minha mensagem de commit"
 
 * É uma boa prática sempre fazer o comit informando uma mensagem.
 
-###Remover arquivo/diretório
+### Remover arquivo/diretório
 **Remover arquivo**
 
 git rm meu_arquivo.txt
@@ -98,7 +98,7 @@ git rm meu_arquivo.txt
 
 git rm -r diretorio
 
-###Visualizar histórico
+### Visualizar histórico
 
 **Exibir histórico**
 
@@ -144,7 +144,7 @@ git log --diff-filter=M -- <caminho_do_arquivo>
 
 git log --author=usuario
 
-###Desfazendo operações
+### Desfazendo operações
 **Desfazendo alteração local (working directory)**
 
 Este comando deve ser utilizando enquanto o arquivo não foi adicionado na staged area.
@@ -165,30 +165,30 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 
 git checkout meu_arquivo.txt
 
-##Repositório Remoto
-###Exibir os repositórios remotos
+## Repositório Remoto
+### Exibir os repositórios remotos
 
 git remote
 
 git remote -v
-
-###Vincular repositório local com um repositório remoto
+ 
+### Vincular repositório local com um repositório remoto
 
 git remote add origin git@github.com:leocomelli/curso-git.git
 
-###Exibir informações dos repositórios remotos
+### Exibir informações dos repositórios remotos
 
 git remote show origin
 
-###Renomear um repositório remoto
+### Renomear um repositório remoto
 
 git remote rename origin curso-git
 
-###Desvincular um repositório remoto
+### Desvincular um repositório remoto
 
 git remote rm curso-git
 
-###Enviar arquivos/diretórios para o repositório remoto
+### Enviar arquivos/diretórios para o repositório remoto
 
 O primeiro **push** de um repositório deve conter o nome do repositório remoto e o branch.
 
@@ -198,7 +198,7 @@ Os demais **pushes** não precisam dessa informação
 
 git push
 
-###Atualizar repositório local de acordo com o repositório remoto
+### Atualizar repositório local de acordo com o repositório remoto
 
 **Atualizar os arquivos no branch atual**
 
@@ -208,7 +208,7 @@ git pull
 
 git fetch
 
-###Clonar um repositório remoto já existente
+### Clonar um repositório remoto já existente
 
 git clone git@github.com:leocomelli/curso-git.git
 
